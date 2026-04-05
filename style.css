@@ -1,48 +1,40 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar{
-background-image: url("/images/slider_images_1.jpg");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;    
-padding: 15px;
-
+  background-image: url("images/slider_images_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;    
+  padding: 15px;
 }
 .navbar-brand{
-font-size: 24px;
-font-weight: bold;
-
-
+  font-size: 24px;
+  font-weight: bold;
 }
 .nav-link{
-margin-left: 15px;
-margin-right: 50px;
-
-
+  margin-left: 15px;
+  margin-right: 50px;
 }
 .nav-item:hover{
- color:#e73232;
+  color:#e73232;
 }
 .btn-1{
-height:30px ;
-width: 150px;
-background-color: #e73232;
-color: #f9f9f9;
-
+  height:30px;
+  width: 150px;
+  background-color: #e73232;
+  color: #f9f9f9;
 }
 .carousel-caption{
   top: 50%;
   transform: translateY(-50%);
 }
-
 .carousel-caption h2{
   font-size: 40px;
   font-weight: bold;
 }
-
 .carousel-caption button{
   padding:10px 20px;
   background:#ff6600;
@@ -53,13 +45,10 @@ color: #f9f9f9;
   position: fixed;
   left: 10px;
 }
-
 .carousel-caption h2{
   position: fixed;
   left: 10px;
-  
 }
-
 .carousel-caption button{
   position: fixed;
   left: 10px;
@@ -67,19 +56,12 @@ color: #f9f9f9;
   background-color: #e73232;
 }
 .photo{
-height:400px;
-width: 100%;
-background-image: url("/images/testimonial-bg.jpg");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-}
-.main-footer{
-display: flex;
-align-items: flex-start;
-justify-content: space-evenly;
-
-
+  height:400px;
+  width: 100%;
+  background-image: url("images/testimonial new.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .main-footer{
   display:flex;
@@ -88,13 +70,11 @@ justify-content: space-evenly;
   color:black;
   flex-wrap:wrap;
 }
-
 .main-footer div{
   width:250px;
 }
-
 .box3{
-  background-image:url("/images/footer\ img.jpg");
+  background-image:url("images/footer images.jpg");
   background-size:cover;
   height:250px;
   border-radius:15px;
@@ -102,108 +82,70 @@ justify-content: space-evenly;
   padding:20px;
   color:white;
 }
-
 .box4 i{
   font-size:20px;
   margin-right:10px;
   cursor:pointer;
- 
- 
 }
-
 .box4 i:hover{
-  color:white
+  color:white;
 }
 
-
+/* Responsive */
 @media (max-width: 576px) {
-
-  
   .navbar-nav {
     text-align: center;
   }
-
   .btn-1 {
     margin-top: 10px;
     width: 100%;
   }
-
- 
   .carousel-caption h2 {
     font-size: 18px;
   }
-
   .carousel-caption p {
     font-size: 12px;
   }
-
   .carousel-caption button {
     font-size: 12px;
     padding: 6px 10px;
   }
-
- 
   .container .row {
     text-align: center;
   }
-
-
   .card-group {
     flex-direction: column;
   }
-
-  
   .main-footer {
     text-align: center;
   }
-
   .box4 {
     margin-left: 0 !important;
     margin-top: 20px;
   }
 }
-
-
-
 @media (max-width: 768px) {
-
-
   .navbar-nav {
     gap: 10px;
   }
-
- 
   .carousel-caption h2 {
     font-size: 22px;
   }
-
-  
   .card {
     margin-bottom: 20px;
   }
-
- 
   .main-footer {
     padding: 20px;
   }
-
 }
-
-
-
 @media (max-width: 992px) {
-
   .navbar-nav {
     text-align: center;
   }
-
   .btn-1 {
     margin-top: 10px;
   }
-
-
   .container .row {
     gap: 20px;
   }
-
 }
